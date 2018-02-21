@@ -1,9 +1,23 @@
+html {
+  height: 100%;
+}
+
 body {
-  overflow-x: hidden;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 100px 1fr 2fr;
+  overflow-x: auto;
+}
+
+footer {
+  grid-row-start: 4;
+  grid-row-end: 4;
 }
 
 .navigation {
   display: block;
+  grid-row-start: 1;
+  grid-row-end: 1;
 }
 
 .navigation__logo-row {
@@ -29,7 +43,7 @@ body {
 }
 
 .navigation__logo-row img {
-  width: 55%;
+  width: 160px;
 }
 
 .navigation__logo-row i {
@@ -57,7 +71,11 @@ body {
 .introdution {
   background: url("../images/jumbotron.png");
   background-size: cover;
-  padding: 11em 6em;
+  background-position-y: 640px;
+  padding: 6em 6em;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  height: 100%;
 }
 
 .introdution h1 {
@@ -69,6 +87,7 @@ body {
   font-weight: 300;
   font-size: 30px;
   color: #fff;
+  width: 75%;
 }
 
 .introduction__link a {
@@ -94,6 +113,9 @@ body {
 
 .what-we-do {
   padding: 0em 6em;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  height: auto;
 }
 
 .what-we-do__text {
