@@ -5,17 +5,36 @@ html {
 body {
   min-height: 100%;
   display: grid;
-  grid-template-rows: 100px 0fr 3fr;
+  grid-template-rows: 100px 0fr 1fr;
   overflow-x: auto;
 }
 
 footer {
-  grid-row-start: 4;
-  grid-row-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 6;
 }
 
 p {
   font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 70px !important;
+  color: #fff;
+  font-family: 'Barlow', sans-serif !important;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Barlow', sans-serif !important;
+}
+
+h3 {
+  ont-family: 'Barlow', sans-serif !important;
+  font-size: 30px !important;
+  color: #fff;
+  width: 75%;
+  padding-bottom: 25px;
 }
 
 .navigation {
@@ -82,20 +101,7 @@ p {
   border-bottom: 11px solid #7ca7d9;
 }
 
-.introdution h1 {
-  font-size: 70px;
-  color: #fff;
-  font-family: 'Barlow', sans-serif;
-}
-
-.introdution h3 {
-  font-family: 'Barlow', sans-serif;
-  font-size: 30px;
-  color: #fff;
-  width: 75%;
-}
-
-.introduction__link a, .what-we-do a {
+.introduction__link a, .what-we-do a, .donate a {
   background-color: #7da7d9;
   color: #fff;
   padding: 15px 35px;
@@ -128,15 +134,12 @@ p {
   height: auto;
 }
 
-.what-we-do h2 {
-  text-align: center;
-  font-family: 'Barlow', sans-serif;
+.upcoming-events, .donate {
+  margin: 3em 0;
 }
 
-.what-we-do h3 {
-  font-size: 35px;
-  font-family: 'Barlow', sans-serif;
-  padding-bottom: 25px;
+.upcoming-events iframe {
+  margin: 2em 1em;
 }
 
 .what-we-do__subheadline {
@@ -145,7 +148,7 @@ p {
   padding: 4em 0;
 }
 
-.what-we-do__horizontal-line {
+.horizontal-line {
   border-bottom: 2px solid #7ba7d9;
   width: 19%;
   margin: 0 auto;
@@ -168,6 +171,26 @@ p {
 .what-we-do__image img {
   width: 100%;
   border-radius: 25px;
+}
+
+.upcoming-events {
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+
+.donate {
+  grid-row-start: 5;
+  grid-row-end: 5;
+  background-image: url('../images/rally.png');
+  background-size: cover;
+  width: 100%;
+  opacity: .75;
+}
+
+.donate__subheadline {
+  padding: 3em 0;
+  color: #fff;
+  text-align: center;
 }
 
 .footer {
