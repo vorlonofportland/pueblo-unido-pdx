@@ -5,13 +5,17 @@ html {
 body {
   min-height: 100%;
   display: grid;
-  grid-template-rows: 100px 1fr 2fr;
+  grid-template-rows: 100px 0fr 3fr;
   overflow-x: auto;
 }
 
 footer {
   grid-row-start: 4;
   grid-row-end: 4;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .navigation {
@@ -71,30 +75,34 @@ footer {
 .introdution {
   background: url("../images/jumbotron.png");
   background-size: cover;
-  background-position-y: 640px;
   padding: 6em 6em;
   grid-row-start: 2;
   grid-row-end: 2;
   height: 100%;
+  border-bottom: 11px solid #7ca7d9;
 }
 
 .introdution h1 {
-  font-size: 65px;
+  font-size: 70px;
   color: #fff;
+  font-family: 'Barlow', sans-serif;
 }
 
 .introdution h3 {
-  font-weight: 300;
+  font-family: 'Barlow', sans-serif;
   font-size: 30px;
   color: #fff;
   width: 75%;
 }
 
-.introduction__link a {
+.introduction__link a, .what-we-do a {
   background-color: #7da7d9;
   color: #fff;
-  padding: 10px 20px;
+  padding: 15px 35px;
   border-radius: 5px;
+  transition: .5s;
+  margin-right: 15px;
+  text-transform: uppercase;
 }
 
 .introduction__link a:hover {
@@ -109,6 +117,8 @@ footer {
 
 .introduction__text {
   margin-bottom: 4em;
+  color: #fff;
+  font-size: 19px;
 }
 
 .what-we-do {
@@ -118,8 +128,46 @@ footer {
   height: auto;
 }
 
+.what-we-do h2 {
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+}
+
+.what-we-do h3 {
+  font-size: 35px;
+  font-family: 'Barlow', sans-serif;
+  padding-bottom: 25px;
+}
+
+.what-we-do__subheadline {
+  width: 100%;
+  height: auto;
+  padding: 4em 0;
+}
+
+.what-we-do__horizontal-line {
+  border-bottom: 2px solid #7ba7d9;
+  width: 19%;
+  margin: 0 auto;
+  padding-top: 1em;
+}
+
+.what-we-do .row {
+  align-items: center;
+}
+
 .what-we-do__text {
   padding: 4em 0;
+  width: 75%;
+}
+
+.what-we-do__text p {
+  margin-bottom: 2em;
+}
+
+.what-we-do__image img {
+  width: 100%;
+  border-radius: 25px;
 }
 
 .footer {
