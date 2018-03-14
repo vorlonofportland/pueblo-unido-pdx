@@ -91,7 +91,7 @@ h3 {
   text-align: right;
 }
 
-.introdution {
+.introduction {
   background: url("../images/jumbotron.png");
   background-size: cover;
   padding: 6em 6em;
@@ -229,4 +229,55 @@ h3 {
 .footer__logo-row i {
   font-size: 30px;
   padding-left: 10px;
+}
+
+@media (max-width: 800px) {
+  .navigation__logo-row {
+    padding: 0 3em;
+  }
+
+  .navigation__logo-row a {
+    padding-left: 15px;
+  }
+
+  .navigation__logo-row img {
+    width: 125px;
+  }
+}
+
+@media (max-width: 680px) {
+  .navigation__logo-row {
+    padding: 0 1.5em;
+  }
+
+  .navigation__logo-row a {
+    font-size: 12px;
+    padding-left: 5px;
+  }
+
+  .navigation__logo-row img {
+    width: 85px;
+  }
+
+  .navigation__logo-row i {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  section.introduction {
+    padding: 6em 1em;
+  }
+
+  .introduction__text h1 {
+    font-size: 45px !important;
+  }
+
+  .introduction__text p {
+    font-size: 14px;
+  }
+
+  .introduction__link a {
+    font-size: 10px;
+  }
 }
