@@ -92,7 +92,7 @@ h3 {
 }
 
 .introduction {
-  background: url("../images/jumbotron.png");
+  background: url("../images/pu-images/jumbotron.png");
   background-size: cover;
   padding: 6em 6em;
   grid-row-start: 2;
@@ -135,7 +135,7 @@ h3 {
 }
 
 .upcoming-events, .donate {
-  margin: 3em 0;
+  margin-top: 3em;
 }
 
 .upcoming-events iframe {
@@ -186,10 +186,11 @@ h3 {
 .donate {
   grid-row-start: 5;
   grid-row-end: 5;
-  background-image: url('../images/rally.png');
+  background-image: url('../images/pu-images/rally.png');
   background-size: cover;
   width: 100%;
   opacity: .75;
+  border-bottom: 11px solid #7ca7d9;
 }
 
 .donate__subheadline {
