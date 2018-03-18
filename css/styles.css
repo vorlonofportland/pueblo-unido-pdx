@@ -1,4 +1,4 @@
-@import 'colors.css';
+@import './colors.css';
 
 html {
   height: 100%;
@@ -17,25 +17,30 @@ footer {
 }
 
 p {
-  @apply --paragraph;
+  font-family: Helvetica, Arial, sans-serif;;
 }
 
 h1 {
+  color: #fff;
   font-size: 70px !important;
-  color: var(--white);
-  @apply --heading-h1;
+  font-family: 'Barlow', sans-serif !important;;
 }
 
 h2 {
   text-align: center;
-  @apply --heading-h2;
+  font-family: 'Barlow', sans-serif !important;;
 }
 
 h3 {
-  @apply --heading-h3;
-  color: var(--white);
+  font-family: 'Barlow', sans-serif !important;
+  font-size: 30px !important;;
+  color: #fff;
   width: 75%;
   padding-bottom: 25px;
+}
+
+.standard-link {
+  color: #7da7d9;
 }
 
 .navigation {
@@ -50,7 +55,7 @@ h3 {
   margin: 0 auto;
   display: table;
   padding: 0 6em;
-  background-color: var(--white)
+  background-color: #fff
   position: fixed;
   z-index: 30;
   vertical-align: middle;
@@ -58,7 +63,7 @@ h3 {
 
 .navigation__logo-row a {
   vertical-align: middle;
-  color: var(--button-color);
+  color: #1c252d;
   padding-left: 25px;
 }
 
@@ -75,7 +80,7 @@ h3 {
 }
 
 .navigation__logo-row i:hover, .navigation__logo-row a:hover {
-  color: var(--button-color-hover);
+  color: #5f6163;
   text-decoration: none;
 }
 
@@ -97,7 +102,7 @@ h3 {
   grid-row-start: 2;
   grid-row-end: 2;
   height: 100%;
-  border-bottom: 11px solid var(--button-color);
+  border-bottom: 11px solid #1c252d;
 }
 
 .introduction--home {
@@ -120,12 +125,26 @@ h3 {
   background-size: cover;
 }
 
-.introduction__link a, .what-we-do a, .donate a {
-  @apply --button;
+.introduction__link a.button, .what-we-do a.button, .donate a.button {
+  background-color: #1c252d;
+  color: #fff;
+  padding: 15px 35px;
+  border-radius: 5px;
+  transition: .5s;
+  margin-right: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
-.introduction__link a:hover, .what-we-do a:hover, .donate a:hover {
-  @apply --button-hover;
+.introduction__link a.button:hover, .what-we-do a.button:hover, .donate a.button:hover {
+  background-color: #fff;
+  color: #1c252d;
+  padding: 15px 35px;
+  border-radius: 5px;
+  transition: .5s;
+  margin-right: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .introduction .col-md-12 {
@@ -134,7 +153,7 @@ h3 {
 
 .introduction__text {
   margin-bottom: 4em;
-  color: var(--white);
+  color: #fff;
   font-size: 19px;
 }
 
@@ -160,7 +179,7 @@ h3 {
 }
 
 .horizontal-line {
-  border-bottom: 2px solid var(--button-color);
+  border-bottom: 2px solid #1c252d;
   width: 19%;
   margin: 0 auto;
   padding-top: 0em;
@@ -201,17 +220,17 @@ h3 {
   background-size: cover;
   width: 100%;
   opacity: .75;
-  border-bottom: 11px solid var(--button-color);
+  border-bottom: 11px solid #1c252d;
 }
 
 .donate__subheadline {
   padding: 3em 0;
-  color: var(--white);
+  color: #fff;
   text-align: center;
 }
 
 .footer {
-  background-color: var(--button-color);
+  background-color: #1c252d;
   width: 100%;
   margin: 0 auto;
   display: table;
@@ -220,12 +239,12 @@ h3 {
 }
 
 .footer__link-row a, .footer__logo-row a {
-  color: var(--white);
+  color: #fff;
   display: table-cell;
 }
 
 .footer__link-row a:hover, .footer__logo-row a:hover {
-  color: var(--white);
+  color: #fff;
   text-decoration: none;
 }
 
