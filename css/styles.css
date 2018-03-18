@@ -79,8 +79,12 @@ h3 {
   font-size: 30px;
 }
 
+.navigation__logo-row i:hover {
+  color: #7da7d9;
+}
+
 .navigation__logo-row i:hover, .navigation__logo-row a:hover {
-  color: #5f6163;
+  color: #7da7d9;
   text-decoration: none;
 }
 
@@ -257,6 +261,10 @@ h3 {
   padding-right: 2em;
 }
 
+.footer__link-row a:hover {
+  color: #7da7d9;
+}
+
 .footer__logo-row {
   display: table-cell;
   vertical-align: middle;
@@ -265,6 +273,10 @@ h3 {
 .footer__logo-row i {
   font-size: 30px;
   padding-left: 10px;
+}
+
+.footer__logo-row i:hover {
+  color: #7da7d9;
 }
 
 @media (max-width: 800px) {
