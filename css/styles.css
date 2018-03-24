@@ -110,22 +110,22 @@ h3 {
 }
 
 .introduction--home {
-  background: url("../images/pu-images/png/jumbotron.png");
+  background: url("../images/pu-images/png/backgrounds/jumbotron.png");
   background-size: cover;
 }
 
 .introduction--about {
-  background: url("../images/pu-images/png/walk--gray.png");
+  background: url("../images/pu-images/png/backgrounds/walk--gray.png");
   background-size: cover;
 }
 
 .introduction--know-your-rights {
-  background: url("../images/pu-images/png/with-families--gray.png");
+  background: url("../images/pu-images/png/backgrounds/with-families--gray.png");
   background-size: cover;
 }
 
 .introduction--volunteer {
-  background: url("../images/pu-images/png/irco-care-fest--gray.png");
+  background: url("../images/pu-images/png/backgrounds/irco-care-fest--gray.png");
   background-size: cover;
 }
 
@@ -283,11 +283,11 @@ h3 {
   .navigation__logo-row {
     padding: 0 3em;
   }
-  
+
   .navigation__logo-row a, .footer a {
     padding-left: 15px;
   }
-  
+
   .navigation__logo-row img {
     width: 125px;
   }
@@ -297,24 +297,24 @@ h3 {
   .navigation__logo-row {
     padding: 0 1.5em;
   }
-  
+
   .navigation__logo-row a, .footer a {
     font-size: 12px;
     padding-left: 5px;
   }
-  
+
   .navigation__logo-row img {
     width: 85px;
   }
-  
+
   .navigation__logo-row i, .footer i {
     font-size: 15px;
   }
-  
+
   .what-we-do {
     padding: 0 1.5em;
   }
-  
+
   .footer {
     padding: 0 1.5em;
   }
@@ -324,15 +324,15 @@ h3 {
   section.introduction {
     padding: 6em 1em;
   }
-  
+
   .introduction__text h1 {
     font-size: 45px !important;
   }
-  
+
   .introduction__text p {
     font-size: 14px;
   }
-  
+
   .introduction__link a {
     font-size: 10px;
   }
