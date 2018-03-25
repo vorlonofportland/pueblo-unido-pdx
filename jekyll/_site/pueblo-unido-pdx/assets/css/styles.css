@@ -111,22 +111,22 @@ h3 {
 }
 
 .introduction--home {
-  background: url("../images/pu-images/png/jumbotron.png");
+  background: url("../images/pu-images/png/backgrounds/jumbotron.png");
   background-size: cover;
 }
 
 .introduction--about {
-  background: url("../images/pu-images/png/walk--gray.png");
+  background: url("../images/pu-images/png/backgrounds/walk--gray.png");
   background-size: cover;
 }
 
 .introduction--know-your-rights {
-  background: url("../images/pu-images/png/with-families--gray.png");
+  background: url("../images/pu-images/png/backgrounds/with-families--gray.png");
   background-size: cover;
 }
 
 .introduction--volunteer {
-  background: url("../images/pu-images/png/irco-care-fest--gray.png");
+  background: url("../images/pu-images/png/backgrounds/irco-care-fest--gray.png");
   background-size: cover;
 }
 
