@@ -15,7 +15,7 @@
     <div class="navigation__logo-row">
       <div class="navigation__logo-row--left">
         <a href="home.html">
-                    <img src="./assets/images/pu-logo/PNG/pueblo-unido-logo--gradient-white.png"></img>
+                    <img src="./assets/images/pu-logo/png/pueblo-unido-logo--gradient-white.png"></img>
                 </a>
       </div>
       <div class="navigation__logo-row--right">
@@ -31,15 +31,16 @@
       </div>
     </div>
   </header>
-  <section class="introduction introduction--volunteer">
+  <section class="introduction introduction--about">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="introduction__text">
-            <h1>Volunteer</h1>
+            <h1>{{ page.header }}</h1>
           </div>
           <div class="introduction__link">
-            <a class="button" href="volunteer.html">Donate</a>
+            <a class="button" href="volunteer.html">{{ page.headerButtonLeft }}</a>
+            <a class="button" href="volunteer.html">{{ page.headerButtonRight }}</a>
           </div>
         </div>
       </div>
@@ -50,13 +51,35 @@
       <div class="row">
         <div class="col-md-12">
           <div class="what-we-do__text">
-            <h3>Volunteer with us!</h3>
-            <p>Volunteer with us! We meet once a week on either Saturday or Sundays at the Rockwood Library. Check our
-              <a class="standard-link" href="https://www.facebook.com/PuebloUnidoPDX/?ref=br_rs">events page</a> for more details.</p>
+            <h3>{{ page.subhead1 }}</h3>
+            <p>{{ page.paragraph1 }}</p>
+            <h3>{{ page.subhead2 }}</h3>
+            <p>{{ page.paragraph2 }}</p>
 
-            <p>¡Sea voluntario con nosotros! Nos reunimos una vez por semana en sábado o domingo en la biblioteca de Rockwood. Visite nuestra <a class="standard-link" href="https://www.facebook.com/PuebloUnidoPDX/?ref=br_rs">página de eventos</a> para más
-              detalles.
-            </p>
+            <p>Our team:</p>
+            <ul>
+              <li>Connects clients to adequate legal representation by offering referrals, informational materials, and scheduling consultations
+              </li>
+
+              <li>Raises donations to pay for clients’ legal consultation and retainer fees</li>
+
+              <li>Helps families and attorneys gather evidence to strengthen their defense</li>
+
+              <li>We accompany family members to schools, churches, and community centers to solicit letters of support</li>
+
+              <li>We arrange free/reduced-cost mental health evaluations for clients' US citizen relatives</li>
+
+              <li>We help clients request and gather past records (tax, medical, payroll, mailing, bills, etc)</li>
+
+              <li>We place intake requests to connect families to social services like rent assistance and community-based food pantries</li>
+
+              <li>And when necessary, we help facilitate communication between clients and their attorneys.
+              </li>
+            </ul>
+
+            <p>{{ page.paragraph3 }}</p>
+
+            <p>{{ page.paragraph4 }}</p>
           </div>
         </div>
       </div>
