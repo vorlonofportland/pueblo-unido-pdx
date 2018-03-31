@@ -13,4 +13,3 @@ donateParagraph: Your contribution helps folks remain with their families.
 layout: home
 ---
 
-Bah blah blah

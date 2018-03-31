@@ -1,6 +1,6 @@
 ---
 title: About Us
-permalink: about-us
+permalink: "/about/"
 header: About Us
 headerButtonLeft: Get Involved
 headerButtonRight: Donate
