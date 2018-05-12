@@ -23,12 +23,12 @@ p {
 h1 {
   color: #fff;
   font-size: 70px !important;
-  font-family: 'Barlow', sans-serif !important;;
+  font-family: 'Barlow', sans-serif !important;
 }
 
 h2 {
   text-align: center;
-  font-family: 'Barlow', sans-serif !important;;
+  font-family: 'Barlow', sans-serif !important;
 }
 
 h3 {
@@ -166,6 +166,10 @@ h3 {
   grid-row-start: 3;
   grid-row-end: 3;
   height: auto;
+}
+
+.know-your-rights {
+  margin: 4em 0;
 }
 
 .upcoming-events, .donate {
